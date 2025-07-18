@@ -135,7 +135,6 @@ function LegendListImpl<T>(
       progressViewOffset={progressViewOffset}
       bouncesZoom={false}
       onScroll={scrollHandler}
-      scrollEventThrottle={8}
       refreshControl={memoRefreshControl}
       automaticallyAdjustContentInsets={false}
       onContentSizeChange={scrollContentSizeChangeHandlers}
