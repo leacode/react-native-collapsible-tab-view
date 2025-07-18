@@ -138,15 +138,7 @@ const ExampleList: React.FC<object> = () => {
                 style={styles.button}
                 onPress={handleNavigateBack}
               >
-                <Ionicons
-                  name={
-                    Platform.OS === 'android'
-                      ? 'md-arrow-back'
-                      : 'ios-arrow-back'
-                  }
-                  size={24}
-                  color={tintColor}
-                />
+                <Ionicons name="arrow-back" size={24} color={tintColor} />
               </TouchableOpacity>
             ) : null}
             <Text
